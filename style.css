@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    background-color: black;
+    color: white;
+}
+.home-pg{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 100vh;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+    display: inline-block;
+    padding-top: 60px;
+    padding-right: 60px;
+}
+.nav-links ul li{
+    font-size: 17px;
+    list-style: none;
+    display: inline-block;
+    padding: 8px 27px;
+    cursor: pointer;
+    transition: all 0.5s;
+    font-weight: 200;
+}
+.nav-links ul li:hover{
+    transform: scale(1.2);
+    font-weight: 500;
+}
+.home-content{
+    padding-top: 65px;
+    padding-left: 60px;
+}
+.home-heading{
+    font-size: 55px;
+}
+.content-2-container h3{
+    font-size: 50px;
+}
+.content-2-container{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-top: 40px;
+}
+.date-container{
+    height: 80px;
+    width: 80px;
+    border: solid;
+    text-align: center;
+    margin-left: 40px;
+    padding: 20px;
+    border-radius: 50%
+}
+.avail-text{
+    margin-top: 10px;
+}
+.aval-text{
+    font-weight: 600;
+}
+.date strong{
+    font-size: 25px;
+}
+.work{
+    margin: 0;
+    padding: 0;
+    width: 90px;
+}
+.blue-text-container{
+    display: block;
+    float: right;
+    font-size: 13px;
+    margin-left: 5px;
+    color: rgb(0, 195, 255);
+}
+.xp{
+    padding-top: 70px;
+    width: 90%;
+    margin: auto;
+}
+.xp ul li{
+    list-style: none;
+    padding-bottom: 30px;
+}
+.who{
+    margin-top: 120px;
+    margin-left: 55px;
+    width: 50%;
+}
+.who h1{
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+.skills{
+    margin-top: 50px;
+}
+.name-skills{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.name-skills p{
+    padding-left: 50px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+.skill-contain{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+.skill-contain ul li{
+    list-style: none;
+}
+@media screen and (max-width: 821px) {
+    .home-pg{
+        display: flex;
+        flex-direction: column;
+    }
+    .content-2-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .home-content{
+        padding-left: 30px;
+    }
+    .home-heading{
+        font-size: 35px;
+    }
+    .nav-links ul li{
+        padding: 8px 20px;
+    }
+    .date-container{
+        margin-left: 0px;
+    }
+    .who h1{
+        font-size: 30px;
+    }
+    .name-skills p{
+        padding-left: 20px;
+    }
+}
